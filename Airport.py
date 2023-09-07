@@ -8,7 +8,7 @@ class Airport:
 
     def hire_employee(self, employee):
         self.employees.append(employee)
-        print(f"{employee.get_full_name()} был принят на работу в качестве {employee.post} с окладом в размере {employee.salary} рублей")
+        print(f"{employee.get_full_name()} был принят на работу в качестве {employee.post} с окладом в рразмере {employee.salary} рублей")
 
     def fire_employee(self, employee):
         if employee in self.employees:
